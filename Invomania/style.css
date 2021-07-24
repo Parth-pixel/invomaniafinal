@@ -1,0 +1,270 @@
+.center {
+    display:block;
+   
+    position:absolute;
+   top:0;
+   right:0;
+  }
+  .Info{
+    background-color: rgb(127, 255, 212); border: blue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+  }
+  .material{
+    background-color: rgb(204, 58, 160); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+  }
+  .how{
+    background-color: rgb(204, 177, 58); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+  }
+  .function{
+    background-color: rgb(58, 146, 204); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+  }
+  .conclusion{
+    background-color: rgb(58, 146, 204); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+  
+  }
+  .challenge{
+    background-color: rgb(255, 25, 25); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+  }
+
+  .benefits{
+    background-color: rgb(255, 25, 243); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+  }
+  .Disadvantages{
+    background-color: rgb(25, 228, 255); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+  }
+
+  .image1{
+    background-color: rgb(0,0,0); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+    
+  }
+  .image2{
+    background-color: rgb(255, 255, 255); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:10px;
+  }
+
+  .Info h1{
+   
+    opacity: 0;
+}
+.Info p{
+   
+    opacity: 0;
+}
+.Info:hover h1{
+    opacity: 1;
+}
+.Info:hover p{
+    opacity: 1;
+}
+
+.benefits h2{
+   
+  opacity: 0;
+}
+.benefits h3{
+ 
+  opacity: 0;
+}
+.benefits:hover h2{
+  opacity: 1;
+}
+.benefits:hover h3{
+  opacity: 1;
+}
+
+
+.material h1{
+   
+  opacity: 0;
+}
+.material p{
+ 
+  opacity: 0;
+}
+.material:hover h1{
+  opacity: 1;
+}
+.material:hover p{
+  opacity: 1;
+}
+
+
+.how h1{
+   
+  opacity: 0;
+}
+.how p{
+ 
+  opacity: 0;
+}
+.how:hover h1{
+  opacity: 1;
+}
+.how:hover p{
+  opacity: 1;
+}
+
+.function h1{
+   
+  opacity: 0;
+}
+.function p{
+ 
+  opacity: 0;
+}
+.function:hover h1{
+  opacity: 1;
+}
+.function:hover p{
+  opacity: 1;
+}
+
+
+.challenge h1{
+   
+  opacity: 0;
+}
+.challenge p{
+ 
+  opacity: 0;
+}
+.challenge:hover h1{
+  opacity: 1;
+}
+.challenge:hover p{
+  opacity: 1;
+}
+.benefits ol{
+  opacity: 0
+}
+.benefits h1{
+  opacity: 0
+}
+.benefits:hover ol{
+opacity: 1;
+}
+.benefits:hover h1{
+  opacity: 1;
+  }
+.Disadvantages h1{
+  opacity: 0;
+}
+.Disadvantages ol{
+  opacity: 0;
+}
+.Disadvantages:hover h1{
+  opacity: 1;
+}
+.Disadvantages:hover ol{
+  opacity: 1;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.qoutes{
+  border: solid;
+  border-color: #f4511e;
+}
